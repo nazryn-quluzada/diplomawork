@@ -1,0 +1,184 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./Course.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,400;1,700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <title>University of Oxford</title>
+
+</head>
+
+
+
+
+<body onload="onloadWindow()">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img style="width: 120;" src="./img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                
+
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+
+
+
+
+
+    <section class="course">
+        <h1>Our University Offer You:</h1>
+    <p>You can study in 3 degrees at Oxford University:</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Bachelor's Degree</h3>
+               <p>A bachelor's degree or baccalaureate is an undergraduate academic degree awarded by colleges and universities upon completion of a course of study lasting three to six years. The two most common bachelor's degrees are the Bachelor of Arts and the Bachelor of Science</p>
+            
+            </div>
+            <div class="course-col">
+                <h3>Master's Degree</h3>
+                        <p>A master's degree is an academic degree awarded by universities or colleges upon completion of a course of study demonstrating mastery or a high-order overview of a specific field of study or area of professional practice. </p>
+           
+            </div>
+            <div class="course-col">
+                <h3>Doctoral Degree</h3>
+                       <p>A doctorate, doctor's degree, or doctoral degree is an academic degree awarded by universities and some other educational institutions, derived from the ancient formalism licentia docendi. </p>
+            
+        </div>
+    </section>
+
+
+    <section class="facilities">
+        <h1>Our Activities</h1>
+        <p>They typically oversee activities like catering, cleaning, building maintenance, environmental services, security and reception.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./img/library.jpg">
+                <h3>Library</h3>
+                <p>Our Library</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./img/contests.jpg">
+                <h3>Voleyball</h3>
+                <p>Voleyball for health and wealth</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./img/dance.jpg">
+                <h3>Dance</h3>
+                <p>Enjoy!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="row">
+            <div class="blog-left">
+                <img  src="./img/books.jpg">
+                <h2>Our Scholarships and Online Programs</h2>
+                <p>* Aggregate of class XII (10 + 2) percentage of all subjects from any recognized board in case of B
+                    Tech, BBA, B Com (Hons), BSc (Hons) program.
+                    # Aggregate of class X (10th) percentage in case of Diploma program.
+                    @ Aggregate Graduation percentage in case of MSc program.
+
+                    Note:
+
+                    The scholarships are given on an annual basis. To continue the scholarships after the first year,
+                    the student will have to maintain a minimum prescribed academic performance during the course of the
+                    program. The students selected for any of the above mentioned scholarships in the first year will
+                    have to complete the entire course of duration at Oxford University</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form" name="comment-form">
+                        <input type="text" name="Name" placeholder="Enter Name" required>
+                        <input type="email" name="Email" placeholder="Enter your Email" required>
+                        <textarea rows="5" name="Comments" placeholder="Your Comments" required></textarea>
+                        <button type="submit" class="btn red-btn" id="submit" onclick="myFunc()">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Oxford University at a glance</h3>
+                <div>
+                    <span>Campus Drives</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Students Placed</span>
+                    <span>82.5%</span>
+                </div>
+                <div>
+                    <span>Average Package</span>
+                    <span>5.75L</span>
+                </div>
+                <div>
+                    <span>Students</span>
+                    <span>15000+</span>
+                </div>
+                <div>
+                    <span>Faculty</span>
+                    <span>70+</span>
+                </div>
+                <div>
+                    <span>Non Teaching Staff</span>
+                    <span>100+</span>
+                </div>
+                <div>
+                    <span>Infrastructure</span>
+                    <span>50 Acres Area</span>
+                </div>
+                <div>
+                    <span>Networked Computer Systems</span>
+                    <span>500+</span>
+                </div>
+                <div>
+                    <span>Well Equiped Laboratories</span>
+                    <span>50+</span>
+                </div>
+                <div>
+                    <span>Connectivity(Fully Wifi Campus)</span>
+                    <span>260 Mbps</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Pursuit of knowledge through experience is the cornerstone of Oxford University<br> We aim to build an
+            institution where students learn by doing, where real world challenges find practical solutions and
+            innovation happens not by chance, but by design.<br>© 2021 Oxford University, All Rights Reserved.</p>
+        <div class="icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin-square"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made by<a href="#" target="_blank">Nazrin Quluzada</a></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+</body>
